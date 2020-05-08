@@ -1,0 +1,12 @@
+git init
+git add <nome do arquivo> ou .
+git rm -f <nome do arquivo> deleta arquivo
+git commit {i, esc, :x}
+git commit -m "primeiro commit"
+git status
+git checkout -- <nome do arquivo> reset arquivo
+git config --global credencial.helper 'store'
+git remote -v
+git remote add origin <nome do repositorio>
+git push
+git push --set-upstream origin <nome da branch> ou master
