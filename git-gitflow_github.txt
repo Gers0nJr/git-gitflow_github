@@ -9,4 +9,7 @@ git config --global credencial.helper 'store'
 git remote -v
 git remote add origin <nome do repositorio>
 git push
+git push origin master --force
 git push --set-upstream origin <nome da branch> ou master
+git clone <nome do repositorio>
+git pull
